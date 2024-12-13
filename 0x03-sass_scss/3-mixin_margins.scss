@@ -1,0 +1,11 @@
+@mixin add_margin($number: 0) {
+    margin-left: 10px + $number;
+    margin-right: 10px + $number;
+}
+
+body {
+    @include add_margin; 
+}
+div {
+    @include add_margin(5);
+}
