@@ -1,0 +1,4 @@
+1. Installed SASS globally using the command:
+   npm install -g sass
+2. Verified the installation by checking the version with:
+   sass --version
