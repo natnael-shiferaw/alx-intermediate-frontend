@@ -1,0 +1,11 @@
+$color: #3D3D3D;
+
+@mixin color {
+    color: $color;
+}
+body {
+    @include color
+}
+p {
+    @include color
+}
